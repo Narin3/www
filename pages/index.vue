@@ -9,6 +9,18 @@
       </p>
       </section>
       </header>
+      <section>
+        <Problem/>
+      </section>
     </section>
 </template>
+<script>
+import Problem from '../components/problem'
+export default {
+  components: {
+    Problem
+  }
+}
+</script>
+
 <style lang="scss" src="../assets/main.scss" />
