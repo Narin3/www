@@ -2,13 +2,15 @@
 <section>
     <navbar/>
     <nuxt/>
-    </section>
+     <foot/>
+</section>
 </template>
 <script>
-import Navbar from '../components/navbar'
+import Navbar from '../components/navbar.vue'
+import Footer from '../components/footer.vue'
 export default {
   components: {
-    Navbar
+    navbar: Navbar, foot: Footer
   }
 }
 </script>
