@@ -2,23 +2,25 @@
   margin: 0;
   padding: 0;
 };
- .header {
-     background-image: url('../static/background.jpg');
-    height: 60.5em; 
-    width: 100;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    p {
-      color:#fff !important;
+
+.header {
+  background-image: url('../static/background.jpg');
+  height: 60.5em; 
+  width: 100;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+  p {
+    color:#fff !important;
     text-align: center;
-     font-size: 2rem;
+    font-size: 2rem;
     font-family:  serif;  
     padding: 1rem;
-    }
   }
+}

@@ -1,16 +1,18 @@
 <template>
-<section>
+  <section>
     <navbar/>
     <nuxt/>
-     <foot/>
-</section>
+    <foot/>
+  </section>
 </template>
 <script>
 import Navbar from '../components/navbar.vue'
 import Footer from '../components/footer.vue'
+
 export default {
   components: {
-    navbar: Navbar, foot: Footer
+    navbar: Navbar,
+    foot: Footer
   }
 }
 </script>
