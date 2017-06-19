@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Lumina Project' }
     ],
     link: [
-      { rel: 'icon', type: 'image', href: './static/favicon.png' }
+      { rel: 'icon', type: 'image/png', href: 'favicon.png' }
     ]
   },
   /*

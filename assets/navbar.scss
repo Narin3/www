@@ -1,3 +1,5 @@
+@import 'variables';
+
 * {
   margin:0;
   padding:0;
@@ -9,7 +11,7 @@ body {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left:0;
   right: 0;
@@ -19,6 +21,20 @@ nav {
   background-color: transparent;
   border-radius: 2px;
   padding: 1.3rem 17rem 1.3rem 17rem;
+  @media only screen and  (max-width: $not-small) {
+    padding: 1em;
+    width: 100%;
+};
+  @media only screen and (max-width: $large) and (min-width: $not-small) {
+    padding: 1rem;
+    background-color: blue;
+  }
+
+  @media only screen and (max-width: $extra-large) and (min-width: $large)  {
+    background-color: blueviolet;
+    padding: 1rem;
+  }
+
   
   a {
     padding: 1.2rem;
@@ -32,12 +48,20 @@ nav {
     -webkit-transition:background-color 0.25s;
     -moz-transition:background-color 0.25s;
     transition:background-color 0.25s;
+    @media screen and (max-width: $small) {
+      display: none;
+    }
   };
   
   img {
     margin-right: auto;
     width: 13rem;
     height: 3rem;
+    @media (max-width: $small)  {
+      display: block;
+      width: 8.4em;
+      height: 2.2em;
+    }
   }
 }
 
