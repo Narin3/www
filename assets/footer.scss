@@ -1,4 +1,4 @@
-footer {      
+.footer {      
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@ footer {
   padding: 2rem;
 }
 
-p {
+.text {
   color: #fff;
   font-size: 1.2rem;
   letter-spacing: 1.2px;

@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Lumina Project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: './static/favicon.png' }
+      { rel: 'icon', type: 'image', href: './static/favicon.png' }
     ]
   },
   /*
@@ -20,10 +20,12 @@ module.exports = {
   /*
   ** Build configuration
   */
+  plugins: ['~plugins/vue-scrollto'],
   build: {
     /*
     ** Run ESLINT on save
     */
+    vendor: ['vue-scrollto'],
     extend (config, ctx) {
       if (ctx.isClient) {
         config.module.rules.push({
