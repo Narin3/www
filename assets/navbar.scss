@@ -9,15 +9,19 @@ body{
 }
 
 nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
     display:flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: transparent;
-    box-shadow:0 1px 1px #ccc;
     border-radius:2px;
+    padding:  1.3rem 17rem 1.3rem 17rem;
      a {
-        display:flex;
-        padding: 18px 30px;
-        color:black;
+        padding: 1.2rem;
+        color: #156147;
         font-weight:400;
         font-size:16px;
         text-decoration:none !important;
@@ -27,13 +31,12 @@ nav{
         -webkit-transition:background-color 0.25s;
         -moz-transition:background-color 0.25s;
         transition:background-color 0.25s;
-        first-child {
-            border-radius:2px 0 0 2px;
-        }
-        last-child{
-            border-radius:0 2px 2px 0;
-        }
-    }
+    };
+    img {
+     margin-right: auto;
+    width: 13rem;
+    height: 3rem;
+  }
 }
 
 
@@ -41,6 +44,5 @@ nav.problem .problem,
 nav.solution .solution,
 nav.services .services,
 nav.contact .contact{
-    background-color:black;
     color: white;
 }

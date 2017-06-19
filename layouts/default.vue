@@ -1,8 +1,8 @@
 <template>
-<div>
-  <navbar/>
+<section>
+    <navbar/>
     <nuxt/>
-    </div>
+    </section>
 </template>
 <script>
 import Navbar from '../components/navbar'
