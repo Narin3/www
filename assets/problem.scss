@@ -1,0 +1,33 @@
+.problem-wrap {
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+
+  .problem-text--wrap {
+    width: 36rem;
+    height: 15rem;  
+
+    .problem-item--heading {
+      text-align: center;
+      padding-top: 2rem;
+      letter-spacing: 0.25em;
+    } 
+
+    .problem-item--main-heading {
+      font-size: 2.5rem;
+      text-align: center;
+      padding-top: 2rem;
+    } 
+
+    .problem-text {
+      padding-top: 2rem;
+      font-size: 1.125rem;
+      text-align: center;
+    }
+  }
+}
