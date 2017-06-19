@@ -1,14 +1,10 @@
 <template>
-<section>
+  <section>
     <header class="header">
       <section>
-      <p>
-      Secure and Fast transactiions with the speed of light
-      </p>
-      <p> Motivational Speech 
-      </p>
+        <p>Secure and Fast Transactions at the Speed of Light</p>
       </section>
-      </header>
-    </section>
+    </header>
+  </section>
 </template>
 <style lang="scss" src="../assets/main.scss" />

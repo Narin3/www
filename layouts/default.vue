@@ -5,7 +5,6 @@
       <nuxt />
     </section>
     <Problem />
-    <Solution />
     <Foot />
   </div>
 </template>
