@@ -1,3 +1,5 @@
+@import 'variables';
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 .header {
   background-image: url('../static/background.jpg');
   height: 55em; 
-  width: 100;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,5 +25,10 @@
     margin: 0 15%;
     font-family:  serif;  
     padding: 1rem;
+    @media screen and (max-width: $medium) {
+      font-size: 2.5rem;
+      padding: 0;
+
+    }
   }
 }

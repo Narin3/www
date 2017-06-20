@@ -1,7 +1,7 @@
 <template>
 <section>
-  <div v-if="top <= 380">
-    <nav  v-bind:class="active" v-on:click.prevent>
+  <div v-if="top <= 300">
+    <nav >
       <img src="../static/logoLumina.png"  />
       <a href="#" v-scroll-to="{
         el: '.problem-wrap'
@@ -12,14 +12,14 @@
     </nav>
   </div>
   <div v-else>
-     <nav style="background-color: black" v-bind:class="active" v-on:click.prevent>
+     <nav style="background-color: #fff">
       <img src="../static/logoLumina.png"  />
       <a href="#" v-scroll-to="{
         el: '.problem-wrap'
-        }" class="problem" v-on:click="makeActive('problem')">Problem</a>
-      <a href="#" class="solution" v-on:click="makeActive('solution')">Solution</a>
-      <a href="#" class="services" v-on:click="makeActive('services')">Services</a>
-      <a href="#" class="contact" v-on:click="makeActive('contact')">Contact</a>
+        }" >Problem</a>
+      <a href="#" >Solution</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
     </nav>
     </div>
   </section>
@@ -30,14 +30,10 @@ import Problem from './problem'
 export default {
   data () {
     return {
-      active: '',
       top: 0
     }
   },
   methods: {
-    makeActive (item) {
-      this.active = item
-    },
     onScroll () {
       this.top = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
     }

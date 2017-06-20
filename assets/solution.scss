@@ -1,8 +1,8 @@
 @import 'variables';
 
-.problem-wrap {
-  background-color: #000;
-  color: $green;
+.solution-wrap {
+  background-color: $green;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +10,7 @@
   height: 80vh;
   width: 100%;
   
-  .problem-text--wrap {
+  .solution-text--wrap {
     width: 36rem;
     height: 15rem;  
     @media screen and (max-width: $medium)  {
@@ -21,19 +21,19 @@
       padding-bottom: 10rem;  
     }
 
-    .problem-item--heading {
+    .solution-item--heading {
       text-align: center;
       padding-top: 2rem;
       letter-spacing: 0.25em;
     } 
 
-    .problem-item--main-heading {
+    .solution-item--main-heading {
       font-size: 2.5rem;
       text-align: center;
       padding-top: 2rem;
     } 
 
-    .problem-text {
+    .solution-text {
       padding-top: 2rem;
       font-size: 1.125rem;
       text-align: center;
