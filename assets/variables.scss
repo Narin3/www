@@ -1,10 +1,15 @@
 //colors
 $green: #156147;
 
+$brightest-green: hsl(120, 100%, 50%);
+$light-green: lighten(hsl(120, 100%, 50%), 15%);
+$lightest-green: lighten(hsl(120, 100%, 50%), 25%);
+$dark-green: darken(desaturate(hsl(120, 100%, 50%), 50%), 25%);
+$bland-green: desaturate(hsl(120, 100%, 50%), 50%);
+
 //breakpoints
 $small: 29.99em;
 $not-small: 30em;
 $medium: 47.99em;
 $large: 48em;
 $extra-large: 64em;
-  
