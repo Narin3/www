@@ -4,7 +4,6 @@
       <Navbar />
       <nuxt />
     </section>
-    <Solution />
     <Foot />
   </div>
 </template>
