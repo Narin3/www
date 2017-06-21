@@ -8,6 +8,7 @@
     <section>
       <Problem/>
       <Solution/>
+      <Team />
     </section>
   </section>
 </template>
@@ -15,10 +16,13 @@
 <script>
 import Problem from '../components/problem'
 import Solution from '../components/solution'
+import Team from '../components/team'
+
 export default {
   components: {
     Problem,
-    Solution
+    Solution,
+    Team
   }
 }
 </script>
