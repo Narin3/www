@@ -7,15 +7,18 @@
     </header>
     <section>
       <Problem/>
+      <Solution/>
     </section>
   </section>
 </template>
 
 <script>
 import Problem from '../components/problem'
+import Solution from '../components/solution'
 export default {
   components: {
-    Problem
+    Problem,
+    Solution
   }
 }
 </script>

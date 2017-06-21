@@ -11,6 +11,7 @@ body {
 }
 
 nav {
+  z-index: 1;
   position: fixed;
   top: 0;
   left:0;
@@ -26,7 +27,7 @@ nav {
     width: 100%;
 };
   @media only screen and (max-width: $large) and (min-width: $not-small) {
-    padding: 1rem;
+    padding: 1em;
     background-color: blue;
   }
 
@@ -50,7 +51,10 @@ nav {
     transition:background-color 0.25s;
     @media screen and (max-width: $small) {
       display: none;
-    }
+    };
+     @media only screen and (max-width: $medium) and (min-width: $not-small) {
+      padding-right: 0;
+    } 
   };
   
   img {
@@ -58,17 +62,13 @@ nav {
     width: 13rem;
     height: 3rem;
     @media (max-width: $small)  {
-      display: block;
       width: 8.4em;
       height: 2.2em;
-    }
+    };
+     @media only screen and (max-width: $large) and (min-width: $not-small) {
+     width: 9em;
+     height: 2em;
+     align-self: center;
   }
-}
-
-
-nav.problem .problem,
-nav.solution .solution,
-nav.services .services,
-nav.contact .contact{
-  color: white;
+  }
 }

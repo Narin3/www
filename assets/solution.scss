@@ -1,8 +1,12 @@
 @import 'variables';
 
-.problem-wrap {
-  background-color: #000;
-  color: $green;
+.solution-wrap {
+  background: url('../static/solution-background.jpg');
+  filter: grayscale(35%) invert(10%) saturate(150%) opacity(95%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +14,7 @@
   height: 80vh;
   width: 100%;
   
-  .problem-text--wrap {
+  .solution-text--wrap {
     width: 90%;
     padding: 4em 0;
     height: auto;
@@ -20,18 +24,18 @@
     }
     
     @media screen and (min-width: $large)  {
-      width: 50%;  
+      width: 60%;  
     }
 
-    .problem-item--heading {
+    .solution-item--heading {
       text-align: center;
 
       @media screen and (min-width: $not-small)  {
-        letter-spacing: 0.25em;
+        letter-spacing: 0.1em;
       }
     } 
 
-    .problem-item--main-heading {
+    .solution-item--main-heading {
       font-size: 2rem;
       text-align: center;
       padding-top: 2rem;
@@ -42,11 +46,15 @@
       }
     } 
 
-    .problem-text {
+    .solution-text {
       padding-top: 2rem;
       font-size: 1.125rem;
       text-align: center;
       line-height: 1.5;
+
+      @media screen and (min-width: $not-small)  {
+        font-size: 1.5rem;
+      }
     }
   }
 }
