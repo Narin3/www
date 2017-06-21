@@ -1,7 +1,11 @@
 @import 'variables';
 
 .solution-wrap {
-  background-color: $green;
+  background: url('../static/solution-background.jpg');
+  filter: grayscale(35%) invert(10%) saturate(150%) opacity(95%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -27,7 +31,7 @@
       text-align: center;
 
       @media screen and (min-width: $not-small)  {
-        letter-spacing: 0.25em;
+        letter-spacing: 0.1em;
       }
     } 
 
@@ -47,6 +51,10 @@
       font-size: 1.125rem;
       text-align: center;
       line-height: 1.5;
+
+      @media screen and (min-width: $not-small)  {
+        font-size: 1.5rem;
+      }
     }
   }
 }
