@@ -43,7 +43,7 @@ export default {
   methods: {
     onScroll () {
       this.top = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
-      if (this.top > 300) {
+      if (this.top > 500) {
         this.isNavbarActive = true
       } else {
         this.isNavbarActive = false
