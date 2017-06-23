@@ -13,12 +13,15 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:scss": "stylelint '**/*.scss'",
+    "lint": "npm run lint:js && npm run lint:scss",
     "precommit": "npm run lint"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.2.0",
     "eslint-config-standard": "^6.2.1",
     "eslint-loader": "^1.6.1",
     "eslint-plugin-html": "^2.0.0",
@@ -26,6 +29,8 @@
     "eslint-plugin-standard": "^2.0.1",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
+    "stylelint": "^7.11.1",
+    "stylelint-config-standard": "^16.0.0",
     "vue-parallaxy": "^1.0.3",
     "vue-particles": "^1.0.9"
   }
