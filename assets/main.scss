@@ -3,12 +3,12 @@
 * {
   margin: 0;
   padding: 0;
-};
+}
 
 .header {
   background-image: url('../static/background.jpg');
   filter: grayscale(25%);
-  height: 61em; 
+  height: 61em;
   width: 100%;
   // background-attachment: fixed;
   background-position: center;
@@ -20,19 +20,19 @@
   align-items: center;
 }
 
-
 .motto {
   display: flex;
   justify-content: center;
-  align-items: center;  
-  color:#fff !important;
+  align-items: center;
+  color: #fff !important;
   text-align: center;
   font-size: 4rem;
   margin: 0 15%;
-  font-family:  serif;  
+  font-family: serif;
   padding: 1rem;
   position: absolute;
   bottom: 40%;
+
   @media screen and (max-width: $medium) {
     font-size: 2.5rem;
     padding: 0;

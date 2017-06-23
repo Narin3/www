@@ -10,27 +10,27 @@
   height: 80vh;
   width: 100%;
   z-index: 100;
-  
+
   .problem-text--wrap {
     width: 90%;
     padding: 4em 0;
     height: auto;
-    
-    @media screen and (min-width: $not-small)  {
+
+    @media screen and (min-width: $not-small) {
       width: 80%;
     }
-    
-    @media screen and (min-width: $large)  {
-      width: 50%;  
+
+    @media screen and (min-width: $large) {
+      width: 50%;
     }
 
     .problem-item--heading {
       text-align: center;
 
-      @media screen and (min-width: $not-small)  {
+      @media screen and (min-width: $not-small) {
         letter-spacing: 0.15em;
       }
-    } 
+    }
 
     .problem-item--main-heading {
       font-size: 2rem;
@@ -38,10 +38,10 @@
       padding-top: 2rem;
       line-height: 1.5;
 
-      @media screen and (min-width: $not-small)  {
+      @media screen and (min-width: $not-small) {
         font-size: 2.5rem;
       }
-    } 
+    }
 
     .problem-text {
       padding-top: 2rem;

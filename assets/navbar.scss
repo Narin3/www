@@ -1,8 +1,8 @@
 @import 'variables';
 
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,30 +14,31 @@ nav {
   z-index: 1;
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   right: 0;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: transparent;
   border-radius: 2px;
-  padding: 1.3rem 17rem 1.3rem 17rem;
-  transition: all 0.5s ease-out; 
-  @media only screen and  (max-width: $not-small) {
+  padding: 1.3rem 17rem;
+  transition: all 0.5s ease-out;
+
+  @media only screen and (max-width: $not-small) {
     padding: 1em;
     width: 100%;
-};
+  }
+
   @media only screen and (max-width: $large) and (min-width: $not-small) {
     padding: 1em;
     background-color: blue;
   }
 
-  @media only screen and (max-width: $extra-large) and (min-width: $large)  {
+  @media only screen and (max-width: $extra-large) and (min-width: $large) {
     background-color: blueviolet;
     padding: 1rem;
   }
 
-  
   a {
     padding: 1.2rem;
     color: white;
@@ -47,60 +48,64 @@ nav {
     line-height: 1;
     text-transform: uppercase;
     background-color: transparent;
-    -webkit-transition:background-color 0.25s;
-    -moz-transition:background-color 0.25s;
-    transition:background-color 0.25s;
+    -webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    transition: background-color 0.25s;
     cursor: pointer;
+
     @media screen and (max-width: $small) {
       display: none;
-    };
-     @media only screen and (max-width: $medium) and (min-width: $not-small) {
+    }
+
+    @media only screen and (max-width: $medium) and (min-width: $not-small) {
       padding-right: 0;
-    } 
-  };
-  
+    }
+  }
+
   img {
     margin-right: auto;
     width: 13rem;
     height: 3rem;
-    @media (max-width: $small)  {
+
+    @media (max-width: $small) {
       width: 8.4em;
       height: 2.2em;
-    };
-     @media only screen and (max-width: $large) and (min-width: $not-small) {
-     width: 9em;
-     height: 2em;
-     align-self: center;
-  }
+    }
+
+    @media only screen and (max-width: $large) and (min-width: $not-small) {
+      width: 9em;
+      height: 2em;
+      align-self: center;
+    }
   }
 }
 
 .navbar-active {
   background-color: white;
-  transition: all 0.4s linear;  
+  transition: all 0.4s linear;
+
   a {
-    color: $mild-blue;  
+    color: $mild-blue;
   }
 }
 
+.navbar-link {
+  padding: 1.2rem;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none !important;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: transparent;
+  -webkit-transition: background-color 0.25s;
+  -moz-transition: background-color 0.25s;
+  transition: background-color 0.25s;
 
-  .navbar-link {
-    padding: 1.2rem;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-    text-decoration: none !important;
-    line-height: 1;
-    text-transform: uppercase;
-    background-color: transparent;
-    -webkit-transition:background-color 0.25s;
-    -moz-transition:background-color 0.25s;
-    transition:background-color 0.25s;
-    
-    @media screen and (max-width: $small) {
-      display: none;
-    }
+  @media screen and (max-width: $small) {
+    display: none;
   }
+}
 
 .navbar-link--container {
   .navbar-link--wrap {
@@ -125,9 +130,9 @@ nav {
       line-height: 1;
       text-transform: uppercase;
       background-color: transparent;
-      -webkit-transition:background-color 0.25s;
-      -moz-transition:background-color 0.25s;
-      transition:background-color 0.25s;
+      -webkit-transition: background-color 0.25s;
+      -moz-transition: background-color 0.25s;
+      transition: background-color 0.25s;
     }
   }
 
