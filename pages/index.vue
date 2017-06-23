@@ -7,12 +7,13 @@
           :moveSpeed="5">
         </vue-particles> 
       </section>
-    </parallax> 
         <section>
           <div>
             <p class='motto'> Secure and Fast Transactions With The Speed Of Light </p>
           </div>
       </section>
+          </parallax> 
+
     <section>
       <Problem></Problem>
       <Solution></Solution>
