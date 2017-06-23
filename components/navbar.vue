@@ -9,7 +9,7 @@
            v-scroll-to="{el: '.problem-wrap'}" 
            class="problem" 
            v-on:click="makeActive('problem')">Problem</a>
-        <a href="#"
+        <a hrNavbarActNavbarActef="#"
            v-scroll-to="{el: '.solution-wrap'}" 
            class="solution" 
            v-on:click="makeActive('solution')">Solution</a>

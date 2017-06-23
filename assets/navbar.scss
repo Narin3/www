@@ -40,7 +40,7 @@ nav {
   
   a {
     padding: 1.2rem;
-    color: $dark-green;
+    color: white;
     font-weight: 400;
     font-size: 16px;
     text-decoration: none !important;
@@ -76,13 +76,16 @@ nav {
 
 .navbar-active {
   background-color: white;
-  transition: all 0.4s linear;
+  transition: all 0.4s linear;  
+  a {
+    color: $mild-blue;
+  }
 }
 
 
   .navbar-link {
     padding: 1.2rem;
-    color: #156147;
+    color: white;
     font-weight: 400;
     font-size: 16px;
     text-decoration: none !important;
@@ -114,7 +117,7 @@ nav {
     .navbar-link {
       padding: 0.5rem 4em;
       width: 100%;
-      color: #156147;
+      color: white;
       font-weight: 400;
       font-size: 0.75em;
       text-decoration: none !important;

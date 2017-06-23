@@ -1,12 +1,16 @@
-// <template>
+<template>
   <section>
     <parallax>
-      <header class="header">
-      </header>
-    </parallax>
+      <section class="particles-background">
+        <vue-particles 
+          color="#fff" 
+          :moveSpeed="5">
+        </vue-particles> 
+      </section>
+    </parallax> 
         <section>
           <div>
-          <p class='motto'> Secure and Fast Transactions With The Speed Of Light </p>
+            <p class='motto'> Secure and Fast Transactions With The Speed Of Light </p>
           </div>
       </section>
     <section>
