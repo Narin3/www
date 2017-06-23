@@ -1,12 +1,13 @@
 <template>
   <section>
-    <parallax speedFactor=0.18 fixed=true>
+    <parallax>
     <header class="header">
-    
-    </header>
+     </header>
         </parallax>
         <section>
-          <p class='text'> Secure and Fast Transactions With The Speed Of Light </p>
+          <div>
+          <p class='motto'> Secure and Fast Transactions With The Speed Of Light </p>
+          </div>
       </section>
     <section>
       <Problem></Problem>

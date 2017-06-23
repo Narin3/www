@@ -9,3 +9,6 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+# Yarn error log 
+yarn-error.log

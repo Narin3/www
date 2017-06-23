@@ -21,7 +21,7 @@
 }
 
 
-  .text {
+  .motto {
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -31,7 +31,8 @@
     margin: 0 15%;
     font-family:  serif;  
     padding: 1rem;
-    margin-bottom: 5em;
+    position: absolute;
+    bottom: 40%;
     @media screen and (max-width: $medium) {
       font-size: 2.5rem;
       padding: 0;

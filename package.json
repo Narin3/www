@@ -6,7 +6,6 @@
   "private": true,
   "dependencies": {
     "nuxt": "latest",
-    "vue-parallaxy": "^1.0.3",
     "vue-scrollto": "^2.6.9"
   },
   "scripts": {
@@ -27,6 +26,6 @@
     "eslint-plugin-standard": "^2.0.1",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
-    "vuetify": "^0.12.7"
-  }
+    "vue-parallaxy": "^1.0.3"
+  } 
 }
