@@ -20,12 +20,14 @@ module.exports = {
   /*
   ** Build configuration
   */
-  plugins: ['~plugins/vue-scrollto'],
+  plugins: [
+    { src: '~plugins/plugins.js', ssr: false }
+  ],
   build: {
     /*
     ** Run ESLINT on save
     */
-    vendor: ['vue-scrollto'],
+    vendor: ['vue-scrollto', 'vue-parallaxy'],
     extend (config, ctx) {
       if (ctx.isClient) {
         config.module.rules.push({

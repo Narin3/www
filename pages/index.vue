@@ -1,13 +1,16 @@
 <template>
   <section>
+    <parallax speedFactor=0.18 fixed=true>
     <header class="header">
-      <section>
-        <p>Secure and Fast Transactions at the Speed of Light</p>
-      </section>
+    
     </header>
+        </parallax>
+        <section>
+          <p class='text'> Secure and Fast Transactions With The Speed Of Light </p>
+      </section>
     <section>
-      <Problem/>
-      <Solution/>
+      <Problem></Problem>
+      <Solution></Solution>
     </section>
   </section>
 </template>
@@ -15,11 +18,13 @@
 <script>
 import Problem from '../components/problem'
 import Solution from '../components/solution'
+import Parallax from 'vue-parallaxy'
 
 export default {
   components: {
     Problem,
-    Solution
+    Solution,
+    Parallax
   }
 }
 </script>

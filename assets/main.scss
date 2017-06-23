@@ -8,7 +8,7 @@
 .header {
   background-image: url('../static/background.jpg');
   filter: grayscale(25%);
-  height: 55em; 
+  height: 61em; 
   width: 100%;
   // background-attachment: fixed;
   background-position: center;
@@ -18,17 +18,22 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
 
-  p {
+
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
     color:#fff !important;
     text-align: center;
     font-size: 4rem;
     margin: 0 15%;
     font-family:  serif;  
     padding: 1rem;
+    margin-bottom: 5em;
     @media screen and (max-width: $medium) {
       font-size: 2.5rem;
       padding: 0;
     }
   }
-}

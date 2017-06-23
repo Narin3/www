@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueScrollTo from 'vue-scrollto'
+import Parallax from 'vue-parallaxy'
 
 Vue.use(VueScrollTo, {
   container: 'body',
@@ -11,3 +12,4 @@ Vue.use(VueScrollTo, {
   onCancel: false
 })
 
+Vue.use(Parallax)
