@@ -1,10 +1,10 @@
 <template>
   <section>
-    <template>
-    <div>
+    <!--<template>-->
+    <!--<div>-->
       <nav 
         :class="[isNavbarActive ? navbarActiveClass : '']">
-        <img src="../static/logoLumina.png"/>
+        <!--<img src="../static/logoLumina.png"/>-->
         <a href="#" 
            v-scroll-to="{el: '.problem-wrap'}" 
            class="problem" 
@@ -16,8 +16,8 @@
         <a>Services</a>
         <a >Team</a>
       </nav>
-    </div>
-    </template>
+    <!--</div>-->
+    <!--</template>-->
     <!--<template v-else>
 
     <div>

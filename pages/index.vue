@@ -1,24 +1,24 @@
 <template>
-  <section>
-    <parallax>
-      <section class="particles-background">
-        <vue-particles 
-          color="#fff" 
-          :moveSpeed="5">
-        </vue-particles> 
-      </section>
-        <section>
-          <div>
-            <p class='motto'> Secure and Fast Transactions With The Speed Of Light </p>
-          </div>
-      </section>
-          </parallax> 
-
-    <section>
+  <div>
+    <div class="particles-background">
+      <vue-particles 
+        color="#fff"
+        :moveSpeed="20"
+        shapeType="circle"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push">
+      </vue-particles> 
+    </div>
+    <div>
+      <p class='motto'> Secure and Fast Transactions At The Speed Of Light </p>
+    </div>
+    <div>
       <Problem></Problem>
       <Solution></Solution>
-    </section>
-  </section>
+    </div>
+  </div>
 </template>
 
 <script>

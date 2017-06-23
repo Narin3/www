@@ -50,6 +50,7 @@ nav {
     -webkit-transition:background-color 0.25s;
     -moz-transition:background-color 0.25s;
     transition:background-color 0.25s;
+    cursor: pointer;
     @media screen and (max-width: $small) {
       display: none;
     };
