@@ -4,7 +4,7 @@
     <div>
       <nav 
         :class="[isNavbarActive ? navbarActiveClass : '']">
-        <img src="../static/logoLumina.png"  />
+        <img src="../static/logoLumina.png"/>
         <a href="#" 
            v-scroll-to="{el: '.problem-wrap'}" 
            class="problem" 
@@ -56,7 +56,7 @@ export default {
   methods: {
     onScroll () {
       this.top = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
-      if (this.top > 500) {
+      if (this.top > 300) {
         this.isNavbarActive = true
       } else {
         this.isNavbarActive = false

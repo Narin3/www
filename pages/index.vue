@@ -1,9 +1,9 @@
-<template>
+// <template>
   <section>
     <parallax>
-    <header class="header">
-     </header>
-        </parallax>
+      <header class="header">
+      </header>
+    </parallax>
         <section>
           <div>
           <p class='motto'> Secure and Fast Transactions With The Speed Of Light </p>
