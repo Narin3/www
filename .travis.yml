@@ -1,6 +1,8 @@
 sudo: false
 dist: trusty
 language: node_js
+before_script:
+  - npm install -g yarn
 node_js:
   - "7"
 branches:
@@ -9,4 +11,3 @@ branches:
 cache:
   directories:
     - "node_modules"
-    
