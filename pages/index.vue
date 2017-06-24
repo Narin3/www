@@ -3,7 +3,7 @@
     <div class="particles-background">
       <vue-particles 
         color="#fff"
-        :moveSpeed="20"
+        :moveSpeed="10"
         shapeType="circle"
         :hoverEffect="true"
         hoverMode="grab"

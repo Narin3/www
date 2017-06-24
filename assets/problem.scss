@@ -1,7 +1,11 @@
 @import 'variables';
 
 .problem-wrap {
-  background-color: white;
+  background-color: #fff;
+  filter: grayscale(25%) invert(10%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: $mild-blue;
   display: flex;
   flex-direction: column;
@@ -15,6 +19,7 @@
     width: 90%;
     padding: 4em 0;
     height: auto;
+    color: #0059b3;
 
     @media screen and (min-width: $not-small) {
       width: 80%;
@@ -48,6 +53,10 @@
       font-size: 1.125rem;
       text-align: center;
       line-height: 1.5;
+
+      @media screen and (min-width: $not-small) {
+        font-size: 1.5rem;
+      }
     }
   }
 }
